@@ -27,10 +27,13 @@ app.use(require('node-sass-middleware')({
   sourceMap: true,
 }));
 
+// static resources management
 app.use(express.static(path.join(__dirname, 'public')));
 
+// favicon support
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
+// routes management
 app.use('/', index);
 app.use('/users', users);
 
