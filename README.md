@@ -11,6 +11,11 @@ Gestionnaire de photos sécurisé.
 
 ## Installation 
 
+Prérequis :
+
+- [Node (7+) et NPM (4+)](https://nodejs.org/en/download/)
+- [Heroku](https://devcenter.heroku.com/articles/heroku-cli) 
+
 ```
 $ git clone git@github.com:jbuget/photos.git
 $ cd photos
